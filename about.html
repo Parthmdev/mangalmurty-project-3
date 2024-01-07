@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangal Murty</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="assest/Mangal.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close"class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="#">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="assest/menu.jfif" alt="">
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="about-home">
+        <h2> About M.M classes</h2>
+        
+    </section>
+
+    <section id="about-container">
+        <div class="about-img"></div>
+        <img src="assest/student1" alt="">
+        <div class="about-text">
+            <h2>Welcome to M.M classes, Enchance your skill with our classes</h2>
+            <p>We belives that the student should not take study as burden, it should be taken like knownledge. For us Marks are not more important, the behaviour and knownledge of student is important</p>
+        </div>
+        <div class="about-fe">
+            <img src="assest/icon1.png" alt="">
+            <div class="fe-text">
+             <h5>teachers</h5>
+             <p>All teachers are expert and freindly no child will be uncomfortable by the teachers.</p>
+            </div>
+        </div>
+        <div class="about-fe">
+            <img src="assest/icon2.png" alt="">
+            <div class="fe-text">
+             <h5>Students</h5>
+             <p>More than 100 student but not a overcrowding.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features">
+    <h1> Why you Should Join Us?</h1>
+    <p>Get Focus on all child even the one who are not getting good marks</p>
+    <div class="fea-base">
+        <div class="fea-box">
+            <i class="fa fa-duotone fa-graduation-cap"></i>
+            <h3>Butter Course</h3>
+            <p> If student coprated us then the course will like butter for them</p>
+        </div>
+        <div class="fea-box">
+            <i class="fa fa-solid fa-trophy"></i>
+            <h3>Teacher thought</h3>
+            <p>We throught that all children are equal. Marks are not much import, the knownledge and disciple was important.</p>
+        </div>
+        <div class="fea-box">
+            <i class="fa fa-solid fa-book"></i>
+            <h3>Subjects</h3>
+            <p>We teach only Four Main Subjects Maths, Science, English and Social Science.</p>
+        </div>
+        </div>
+</section>
+
+   
+
+   <footer>
+    <div class="footer-col">
+        <h3>Subjects</h3>
+        <li>Maths</li>
+        <li>English</li>
+        <li>Science</li>
+        <li>Social Science</li>
+    </div>
+    <div class="footer-col">
+        <h3>Expert Teachers</h3>
+        <li>Ashish Sir</li>
+        <li>Vandna Mam</li>
+        <li>Dipali Mam</li>
+        <li>Shilpa Mam</li>
+    </div>
+    <div class="footer-col">
+        <h3>Class</h3>
+        <li>5 To 8</li>
+        <li>9 To 10</li>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>Apply for Admission</p>
+        <div class="subscribe">
+            <input type="email" placeholder="Your Email address">
+            <a href="#" class="yellow">Apply</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Copyright ©2024 All rights reserved │ This temple is made by Parthdev</P>
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+   </footer>
+
+   <script>
+    $('#menu-btn').click(function() {
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function() {
+          $('nav .navigation ul').removeClass('active')
+    });
+</script>
+
+</body>
+</html>
